@@ -28,7 +28,7 @@ flowchart TD
     G --> H[Bump Offset to 48]
     H --> I[Reset Arena!]
     I --> J[Offset returns to 0]
-
+```
 ## 🏗️ Architecture: The Segregated Free List
 
 The Segregated Free List is a general-purpose dynamic memory allocator. It minimizes external fragmentation by dividing memory management into distinct size classes ("lanes"), mimicking the core architectural design of production engines like Google's `TCMalloc`.
