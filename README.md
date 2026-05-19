@@ -19,7 +19,7 @@ The Arena Allocator is designed for **pure speed**. It completely abandons the c
 
 ### Visual Flow
 ```mermaid
-flowchart LR
+flowchart TD
     A[Initialization] --> B[64MB Memory Pool]
     B --> C{Alloc Request 32B}
     C --> D[Return Pointer at Offset 0]
